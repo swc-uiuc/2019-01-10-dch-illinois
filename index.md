@@ -14,7 +14,7 @@ instructor: ["Samniqueka Halsey"] # boxed, comma-separated list of instructors' 
 helper: ["Neal Davis"]     # boxed, comma-separated list of helpers' names
 email: ["training@cse.illinois.edu"]    # boxed, comma-separated list of contact email addresses for the host
 collaborative_notes: "http://pad.software-carpentry.org/2018-09-06-illinois"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: "40788458377"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: "48811116363"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
