@@ -145,6 +145,11 @@ eventbrite: "48973441883"          # optional: alphanumeric key for Eventbrite r
   attempt to provide them.
 </p>
 
+<p>
+  <strong>Acknowledgments</strong>:
+  Local Software Carpentry and Data Carpentry workshops are made possible by the generous support of Computational Science and Engineering, Technology Services, the National Center for Supercomputing Applications, HPCBio at the Roy J. Carver Biotechnology Center with support through the Office of the Vice Chancellor for Research, the Deloitte Center for Business Analytics at the Gies College of Business, and the home units of each of our instructors.
+  </p>
+
 {% comment %}
   CONTACT EMAIL ADDRESS
 
