@@ -2,19 +2,19 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "University of Illinois"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "607 Institute for Genomic Biology"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "1030 National Center for Computing Applications, "      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "40.1047754,-88.2269122"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "Sep 27–28, 2018"  # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latlng: "40.1149832,-88.2271851"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "October 18-19, 2018"  # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-09-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-09-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Neal Davis","Jenny Drnevich","Jessica Holmes"] # boxed, comma-separated list of instructors' names as strings
+startdate: 2018-10-18      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-10-19        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Ashley Hetrick","Dena Strong","Elizabeth Wickes", "Colleen Fallaw"] # boxed, comma-separated list of instructors' names as strings
 helper: []     # boxed, comma-separated list of helpers' names
 email: ["training@cse.illinois.edu"]    # boxed, comma-separated list of contact email addresses for the host
-collaborative_notes: "http://pad.software-carpentry.org/2018-09-27-dc-illinois"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: "48973441883"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+collaborative_notes: "http://pad.software-carpentry.org/2018-10-18-illinois"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+eventbrite: "50596034100"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -54,7 +54,7 @@ eventbrite: "48973441883"          # optional: alphanumeric key for Eventbrite r
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
-<p>The focus of this two-day workshop is on working with genomics data and data management and analysis for genomics research. It covers data management and analysis for genomics research including: best practices for organization of bioinformatics projects and data, use of command line utilities, use of command line tools to analyze sequence quality and perform variant calling, connecting to and using cluster computing resources, and R for data analysis and visualization.</p>
+<p>This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data. The workshop is for anyone who has data they want to analyze, and no prior computational experience is required.</p>
 {% comment %}
   AUDIENCE
 
@@ -222,9 +222,6 @@ eventbrite: "48973441883"          # optional: alphanumeric key for Eventbrite r
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-<p>
-  Supplementary materials for the workshop are available at <a href="https://go.illinois.edu/dc-genomics-supp">go.illinois.edu/dc-genomics-supp</a>.
 </p>
 {% endif %}
 
